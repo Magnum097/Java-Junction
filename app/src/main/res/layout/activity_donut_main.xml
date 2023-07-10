@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCC">
+
+    <Button
+        android:id="@+id/bt_donut_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addDonut"
+        android:text="@string/coffee_add_to_order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <TextView
+        android:id="@+id/tv_subTotal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="132dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/coffee_sub_total"
+        android:textColor="#00838F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_donut_subTotal"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_donut_subTotal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spn_donut_type"
+        android:layout_width="182dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="36dp"
+        android:background="#FFF4F4"
+        app:layout_constraintBottom_toTopOf="@+id/tv_donut_selected_flavor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spn_donut_Qty"
+        app:layout_constraintTop_toBottomOf="@+id/iv_donut_title"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <TextView
+        android:id="@+id/tv_donut_type"
+        android:layout_width="78dp"
+        android:layout_height="51dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/donut_type"
+        android:textColor="#00838F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_donut_choose_flavor"
+        app:layout_constraintEnd_toStartOf="@+id/spn_donut_type"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spn_donut_type"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_donut_Qty"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/donut_qty"
+        android:textColor="#00838F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/spn_donut_Qty"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_donut_selected_flavor"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spn_donut_Qty"
+        android:layout_width="180dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
+        android:background="#FFF4F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_donut_selected_flavor" />
+
+    <Button
+        android:id="@+id/bt_donut_choose_flavor"
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="toFlavorOption"
+        android:text="@string/donut_choose_flavor"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_donut_selected_flavor"
+        app:layout_constraintEnd_toStartOf="@+id/tv_donut_selected_flavor"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_donut_selected_flavor"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <ImageView
+        android:id="@+id/iv_donut_title"
+        android:layout_width="216dp"
+        android:layout_height="168dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+        app:srcCompat="@drawable/yeastdonut" />
+
+    <TextView
+        android:id="@+id/tv_donut_title"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Order Donuts"
+        android:textColor="#00838F"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/tv_donut_selected_flavor"
+        android:layout_width="235dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/donut_hint_flavor"
+        android:textColor="#3F51B5"
+        android:textColorHint="#78909C"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <TextView
+        android:id="@+id/tv_donut_subTotal"
+        android:layout_width="167dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="36dp"
+        android:hint="@string/donut_sub_total_price"
+        android:textColor="#000000"
+        android:textColorHint="#8D6E63"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_donut_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spn_donut_Qty"
+        app:layout_constraintVertical_bias="0.771" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

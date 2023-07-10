@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Amogh/College/2nd year/Spring semester/Software Methodology/Final 1.2/app/src/main/res/layout/activity_donut_main.xml" value="0.36186594202898553" />
+        <entry key="..\:/Amogh/College/2nd year/Spring semester/Software Methodology/Project5 FINAL SUBMIT/app/src/main/res/layout/activity_order_main.xml" value="0.3625" />
+        <entry key="..\:/Users/totos/OneDrive - Rutgers University/Rutgers/21-22 Junior Rutgers/Spring Soft Meth CS213/Project Assginments/Project 5/Final/Ver 3.0/app/src/main/res/layout/activity_donut_flavor_choose.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/totos/OneDrive - Rutgers University/Rutgers/21-22 Junior Rutgers/Spring Soft Meth CS213/Project Assginments/Project 5/Final/Ver 3.0/app/src/main/res/layout/activity_order_main.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/totos/OneDrive - Rutgers University/Rutgers/21-22 Junior Rutgers/Spring Soft Meth CS213/Project Assginments/Project 5/Final/Ver 3.0/app/src/main/res/layout/activity_store_order_main.xml" value="0.5536458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../javadoc/test1" />
+    <option name="OPTION_SCOPE" value="private" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

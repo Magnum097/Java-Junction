@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6C6C6">
+
+    <ImageButton
+        android:id="@+id/imageB_coffee"
+        android:layout_width="223dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:contentDescription="@string/imagebutton_to_go_coffee_activity"
+        android:onClick="toCoffee"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/coffee_main" />
+
+    <TextView
+        android:id="@+id/tv_OrderCoffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginEnd="168dp"
+        android:text="@string/order_coffee"
+        android:textColor="#1E0D0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/tv_OrderDonut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="168dp"
+        android:text="@string/order_donut"
+        android:textColor="#1E0D0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageB_coffee"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <ImageButton
+        android:id="@+id/imageB_Donut"
+        android:layout_width="224dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="93dp"
+        android:contentDescription="@string/imagebutton_to_go_donut_activity"
+        android:onClick="toDonut_flavor"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageB_coffee"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/donuts_main" />
+
+    <ImageButton
+        android:id="@+id/imageB_StoreOrder"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="@string/imagebutton_to_go_store_order_activity"
+        android:onClick="toStoreOrder"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/storeorder_main" />
+
+    <TextView
+        android:id="@+id/tv_CurrentOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/current_order"
+        android:textColor="#1E0D0D"
+        app:layout_constraintBottom_toTopOf="@+id/imageB_CurrentOrder"
+        app:layout_constraintEnd_toStartOf="@+id/tv_StoreOrder"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
+
+    <ImageButton
+        android:id="@+id/imageB_CurrentOrder"
+        android:layout_width="99dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/imagebutton_to_go_order_activity"
+        android:onClick="toOrder"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/yourorder_main" />
+
+    <TextView
+        android:id="@+id/tv_StoreOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:gravity="center_horizontal"
+        android:text="@string/all_orders"
+        android:textColor="#1E0D0D"
+        app:layout_constraintBottom_toTopOf="@+id/imageB_StoreOrder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

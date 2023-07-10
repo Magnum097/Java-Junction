@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RU Cafe_App</string>
+    <string name="order_donut">Order Donut</string>
+    <string name="all_orders">All Orders</string>
+    <string name="order_coffee">Order Coffee</string>
+    <string name="current_order">Current Order</string>
+    <string name="todo">TODO</string>
+    <string name="imagebutton_to_go_coffee_activity">imageButton to go coffee activity</string>
+    <string name="imagebutton_to_go_donut_activity">imageButton to go donut activity</string>
+    <string name="imagebutton_to_go_order_activity">imageButton to go order activity</string>
+    <string name="imagebutton_to_go_store_order_activity">imageButton to go store order activity</string>
+    <string name="coffee_order_coffee">Order Coffee</string>
+    <string name="main_image_for_coffee_activity">main image for coffee activity</string>
+    <string name="size">Size</string>
+    <string name="coffee_qty">Qty</string>
+    <string name="coffee_cream">Cream</string>
+    <string name="coffee_sub_total">Sub Total :</string>
+    <string name="coffee_caramel">Caramel</string>
+    <string name="coffee_whipped_cream">Whipped Cream</string>
+    <string name="coffee_syrup">Syrup</string>
+    <string name="coffee_milk">Milk</string>
+    <string name="coffee_add_to_order">Add to Order</string>
+    <string name="coffee_tv_sub_total">sub total</string>
+    <string name="tv_coffee_sub_total">sub total</string>
+    <string name="donut_choose_flavor">Choose Flavor</string>
+    <string name="donut_hint_flavor">flavor</string>
+    <string name="donut_type">Type</string>
+    <string name="donut_qty">Qty</string>
+    <string name="donut_sub_total_price">sub total</string>
+    <string name="donut_todo">TODO</string>
+    <string name="bt_order_place_order">Place Order</string>
+    <string name="tv_order_your_order">Your Order</string>
+    <string name="bt_order_remove_selected_item">Remove selected Item</string>
+</resources>
